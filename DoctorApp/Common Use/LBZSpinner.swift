@@ -158,7 +158,7 @@ enum SpinnerType:Int {
     
     
     //Open spinner animation
-    func openSpinner(_ sender:UITapGestureRecognizer){
+    @objc func openSpinner(_ sender:UITapGestureRecognizer){
         
         heightTableview = heightTableviewCell*CGFloat(list.count)
         let parentView = findLastUsableSuperview()
@@ -288,7 +288,7 @@ enum SpinnerType:Int {
     
     
     // close spinner animation
-    func closeSpinner() {
+    @objc func closeSpinner() {
         
         if(tableviewChoose != nil) {
             UIView.animate(withDuration: 0.3,
@@ -388,7 +388,7 @@ enum SpinnerType:Int {
         
     }
     
-    func orientationChanged()
+    @objc func orientationChanged()
     {
         /*
          if(UIDeviceOrientationIsLandscape(UIDevice.currentDevice().orientation))

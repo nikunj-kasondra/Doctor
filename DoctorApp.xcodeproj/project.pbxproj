@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00ED536579573A9EC4105F4B /* Pods_DoctorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E965BEE57D2D539B8361E7AE /* Pods_DoctorApp.framework */; };
 		0727A81320753DC000646C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727A81220753DC000646C03 /* AppDelegate.swift */; };
-		0727A81520753DC000646C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727A81420753DC000646C03 /* ViewController.swift */; };
+		0727A81520753DC000646C03 /* DashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727A81420753DC000646C03 /* DashController.swift */; };
 		0727A81820753DC000646C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0727A81620753DC000646C03 /* Main.storyboard */; };
-		0727A81A20753DC000646C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0727A81920753DC000646C03 /* Assets.xcassets */; };
 		0727A81D20753DC000646C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0727A81B20753DC000646C03 /* LaunchScreen.storyboard */; };
+		07BD60E020C4765F009BB3C8 /* SideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BD60DE20C4765F009BB3C8 /* SideMenu.xib */; };
+		07BD60E120C4765F009BB3C8 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BD60DF20C4765F009BB3C8 /* SideMenuView.swift */; };
+		07D6E10820C3C4BE0006590E /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E10720C3C4BE0006590E /* CollectionView.swift */; };
+		07D6E10A20C3CC150006590E /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E10920C3CC150006590E /* AboutUsVC.swift */; };
+		07D6E10D20C3CCF70006590E /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E10C20C3CCF70006590E /* Navigation.swift */; };
+		07D6E10F20C3D7600006590E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E10E20C3D7600006590E /* LoginVC.swift */; };
+		07D6E11A20C3D8C20006590E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11120C3D8C20006590E /* Alert.swift */; };
+		07D6E11B20C3D8C20006590E /* AlertMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11220C3D8C20006590E /* AlertMsg.swift */; };
+		07D6E11C20C3D8C20006590E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11320C3D8C20006590E /* Common.swift */; };
+		07D6E11D20C3D8C20006590E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11420C3D8C20006590E /* Constant.swift */; };
+		07D6E11E20C3D8C20006590E /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11520C3D8C20006590E /* DashBoard.swift */; };
+		07D6E11F20C3D8C20006590E /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11620C3D8C20006590E /* DatePickerDialog.swift */; };
+		07D6E12020C3D8C20006590E /* LBZSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11720C3D8C20006590E /* LBZSpinner.swift */; };
+		07D6E12120C3D8C20006590E /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11820C3D8C20006590E /* Progress.swift */; };
+		07D6E12220C3D8C20006590E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E11920C3D8C20006590E /* Reachability.swift */; };
+		07D6E13B20C3E74D0006590E /* AlamofireCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E13A20C3E74C0006590E /* AlamofireCache.swift */; };
+		07D6E13E20C3E7940006590E /* AFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E13D20C3E7940006590E /* AFWrapper.swift */; };
+		07D6E14020C3E9D10006590E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D6E13F20C3E9D10006590E /* Assets.xcassets */; };
+		07D6E14220C3ED430006590E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6E14120C3ED430006590E /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0727A80F20753DC000646C03 /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0727A81220753DC000646C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0727A81420753DC000646C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0727A81420753DC000646C03 /* DashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashController.swift; sourceTree = "<group>"; };
 		0727A81720753DC000646C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0727A81920753DC000646C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0727A81C20753DC000646C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0727A81E20753DC000646C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BD60DE20C4765F009BB3C8 /* SideMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenu.xib; sourceTree = "<group>"; };
+		07BD60DF20C4765F009BB3C8 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		07D6E10720C3C4BE0006590E /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		07D6E10920C3CC150006590E /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		07D6E10C20C3CCF70006590E /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		07D6E10E20C3D7600006590E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		07D6E11120C3D8C20006590E /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		07D6E11220C3D8C20006590E /* AlertMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMsg.swift; sourceTree = "<group>"; };
+		07D6E11320C3D8C20006590E /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		07D6E11420C3D8C20006590E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		07D6E11520C3D8C20006590E /* DashBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
+		07D6E11620C3D8C20006590E /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		07D6E11720C3D8C20006590E /* LBZSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBZSpinner.swift; sourceTree = "<group>"; };
+		07D6E11820C3D8C20006590E /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		07D6E11920C3D8C20006590E /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		07D6E13A20C3E74C0006590E /* AlamofireCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireCache.swift; sourceTree = "<group>"; };
+		07D6E13D20C3E7940006590E /* AFWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFWrapper.swift; sourceTree = "<group>"; };
+		07D6E13F20C3E9D10006590E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D6E14120C3ED430006590E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A189266BEE02F1D296DE197C /* Pods-DoctorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorApp/Pods-DoctorApp.release.xcconfig"; sourceTree = "<group>"; };
+		D7E6B9B8CA0C24A369375971 /* Pods-DoctorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorApp/Pods-DoctorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E965BEE57D2D539B8361E7AE /* Pods_DoctorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ED536579573A9EC4105F4B /* Pods_DoctorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +81,8 @@
 			children = (
 				0727A81120753DC000646C03 /* DoctorApp */,
 				0727A81020753DC000646C03 /* Products */,
+				E7FC3055EB97542F2258503B /* Pods */,
+				F71F126DC6F53FB5EEAE7B9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,97 @@
 		0727A81120753DC000646C03 /* DoctorApp */ = {
 			isa = PBXGroup;
 			children = (
-				0727A81220753DC000646C03 /* AppDelegate.swift */,
-				0727A81420753DC000646C03 /* ViewController.swift */,
+				07D6E10620C3C4BE0006590E /* Collection View */,
 				0727A81620753DC000646C03 /* Main.storyboard */,
-				0727A81920753DC000646C03 /* Assets.xcassets */,
+				07D6E13F20C3E9D10006590E /* Assets.xcassets */,
+				07D6E11020C3D8C20006590E /* Common Use */,
+				07D6E13920C3E74C0006590E /* Alamofire */,
+				07BD60DD20C4765F009BB3C8 /* Side Menu */,
+				07D6E13C20C3E7940006590E /* Wrapper Class */,
+				07D6E10B20C3CCF70006590E /* Navigation */,
 				0727A81B20753DC000646C03 /* LaunchScreen.storyboard */,
 				0727A81E20753DC000646C03 /* Info.plist */,
+				0727A81220753DC000646C03 /* AppDelegate.swift */,
+				0727A81420753DC000646C03 /* DashController.swift */,
+				07D6E13D20C3E7940006590E /* AFWrapper.swift */,
+				07D6E10920C3CC150006590E /* AboutUsVC.swift */,
+				07D6E10E20C3D7600006590E /* LoginVC.swift */,
+				07D6E14120C3ED430006590E /* API.swift */,
 			);
 			path = DoctorApp;
+			sourceTree = "<group>";
+		};
+		07BD60DD20C4765F009BB3C8 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				07BD60DE20C4765F009BB3C8 /* SideMenu.xib */,
+				07BD60DF20C4765F009BB3C8 /* SideMenuView.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		07D6E10620C3C4BE0006590E /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				07D6E10720C3C4BE0006590E /* CollectionView.swift */,
+			);
+			path = "Collection View";
+			sourceTree = "<group>";
+		};
+		07D6E10B20C3CCF70006590E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				07D6E10C20C3CCF70006590E /* Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		07D6E11020C3D8C20006590E /* Common Use */ = {
+			isa = PBXGroup;
+			children = (
+				07D6E11120C3D8C20006590E /* Alert.swift */,
+				07D6E11220C3D8C20006590E /* AlertMsg.swift */,
+				07D6E11320C3D8C20006590E /* Common.swift */,
+				07D6E11420C3D8C20006590E /* Constant.swift */,
+				07D6E11520C3D8C20006590E /* DashBoard.swift */,
+				07D6E11620C3D8C20006590E /* DatePickerDialog.swift */,
+				07D6E11720C3D8C20006590E /* LBZSpinner.swift */,
+				07D6E11820C3D8C20006590E /* Progress.swift */,
+				07D6E11920C3D8C20006590E /* Reachability.swift */,
+			);
+			path = "Common Use";
+			sourceTree = "<group>";
+		};
+		07D6E13920C3E74C0006590E /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				07D6E13A20C3E74C0006590E /* AlamofireCache.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		07D6E13C20C3E7940006590E /* Wrapper Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Wrapper Class";
+			sourceTree = "<group>";
+		};
+		E7FC3055EB97542F2258503B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6B9B8CA0C24A369375971 /* Pods-DoctorApp.debug.xcconfig */,
+				A189266BEE02F1D296DE197C /* Pods-DoctorApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F71F126DC6F53FB5EEAE7B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E965BEE57D2D539B8361E7AE /* Pods_DoctorApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0727A82120753DC000646C03 /* Build configuration list for PBXNativeTarget "DoctorApp" */;
 			buildPhases = (
+				0D0BA6F5C70FA3751E27072A /* [CP] Check Pods Manifest.lock */,
 				0727A80B20753DC000646C03 /* Sources */,
 				0727A80C20753DC000646C03 /* Frameworks */,
 				0727A80D20753DC000646C03 /* Resources */,
+				E062143C1DCC7DF91A6B0C61 /* [CP] Embed Pods Frameworks */,
+				82A9D5583CD1727C52B364EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +253,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				0727A81D20753DC000646C03 /* LaunchScreen.storyboard in Resources */,
-				0727A81A20753DC000646C03 /* Assets.xcassets in Resources */,
+				07D6E14020C3E9D10006590E /* Assets.xcassets in Resources */,
 				0727A81820753DC000646C03 /* Main.storyboard in Resources */,
+				07BD60E020C4765F009BB3C8 /* SideMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D0BA6F5C70FA3751E27072A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82A9D5583CD1727C52B364EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctorApp/Pods-DoctorApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E062143C1DCC7DF91A6B0C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctorApp/Pods-DoctorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0727A80B20753DC000646C03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0727A81520753DC000646C03 /* ViewController.swift in Sources */,
+				07D6E11B20C3D8C20006590E /* AlertMsg.swift in Sources */,
+				07D6E10820C3C4BE0006590E /* CollectionView.swift in Sources */,
+				0727A81520753DC000646C03 /* DashController.swift in Sources */,
+				07D6E13B20C3E74D0006590E /* AlamofireCache.swift in Sources */,
+				07BD60E120C4765F009BB3C8 /* SideMenuView.swift in Sources */,
+				07D6E10F20C3D7600006590E /* LoginVC.swift in Sources */,
+				07D6E11C20C3D8C20006590E /* Common.swift in Sources */,
+				07D6E11F20C3D8C20006590E /* DatePickerDialog.swift in Sources */,
+				07D6E12020C3D8C20006590E /* LBZSpinner.swift in Sources */,
+				07D6E10D20C3CCF70006590E /* Navigation.swift in Sources */,
+				07D6E12220C3D8C20006590E /* Reachability.swift in Sources */,
+				07D6E10A20C3CC150006590E /* AboutUsVC.swift in Sources */,
+				07D6E11D20C3D8C20006590E /* Constant.swift in Sources */,
+				07D6E12120C3D8C20006590E /* Progress.swift in Sources */,
 				0727A81320753DC000646C03 /* AppDelegate.swift in Sources */,
+				07D6E11A20C3D8C20006590E /* Alert.swift in Sources */,
+				07D6E11E20C3D8C20006590E /* DashBoard.swift in Sources */,
+				07D6E14220C3ED430006590E /* API.swift in Sources */,
+				07D6E13E20C3E7940006590E /* AFWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +467,7 @@
 		};
 		0727A82220753DC000646C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E6B9B8CA0C24A369375971 /* Pods-DoctorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +482,7 @@
 		};
 		0727A82320753DC000646C03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A189266BEE02F1D296DE197C /* Pods-DoctorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

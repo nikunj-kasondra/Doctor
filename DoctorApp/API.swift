@@ -9,5 +9,7 @@
 import UIKit
 
 class API: NSObject {
-
+    static var appName = "Saint Louis Hospital"
+    static var serverURL = "http://hstlouis.com/portal/"
+    static var login = API.serverURL + "api/validate.php?"
 }
